@@ -1,0 +1,341 @@
+@font-face {
+	font-family: "Butler_Medium";
+	src: url(fontes/Butler_Medium.otf);
+}
+
+@font-face {
+	font-family: "carizo";
+	src: url(fontes/Carizo\ Regular.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background: linear-gradient( #fff, #decf00af);
+	height: 600px;
+}
+
+.header_logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.logo img {
+	width: 200px;
+	margin-top: -30px;
+}
+
+.logo h1{
+	font-family: "carizo";
+	font-size: 50px;
+	margin-left: -34px;
+  margin-top: -20px;
+}
+
+.logo span{
+	color: #783015;
+	margin-left: -6px;
+}
+
+.menu {
+	margin-top: -36px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px;
+}
+
+.menu #login {
+	background-color: #783015;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.menu a:hover {
+	background-color: #decf00;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.menu #login:hover {
+	background-color: #decf00;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.foto_banner img {
+	width: 335px;
+  float: right;
+  padding-right: 323px;
+  margin-top: 30px;
+}
+
+.description {
+	padding-left: 226px;
+  padding-top: 23px;
+	width: 30%;
+}
+
+.description h2{
+	font-family: "Butler_Medium";
+	font-size: 35px;
+	font-weight: bold;
+} 
+
+.description p {
+	font-size: 18px;
+	margin-bottom: 34px;
+}
+
+.description a {
+	text-decoration: none;
+	background-color: #783015;
+	color: #fff;
+	padding: 12px;
+	border-radius: 10px;
+}
+
+.description a:hover {
+	background-color: #decf00;
+	color: #fff;
+}
+
+.cards {
+	text-align: center;
+	justify-content: space-around;
+	display: flex;
+	width: 100%;
+}
+
+.card1 img {
+	width: 70px;
+	margin-top: 16px;
+	}
+
+.card1 h1 {
+	color: #000;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+.card1 {
+	border-radius: 20px;
+	width: 321px;
+  background-color: #fff;
+	height: 190px;
+	margin-top: -79px;
+	border: 1px solid #eaeaea;
+}
+
+.box1 {
+	box-shadow: 3px 0px 33px 0px #783015;
+}
+
+.card1 span {
+	color: #333333;
+	font-size: 15px;
+	display: block;
+}
+
+.beneficios {
+	display: flex;
+}
+
+.beneficios img {
+	width: 600px;
+	height: 600px;
+	margin-top: 137px;
+}
+
+.text_rigth {
+	padding: 137px;
+}
+
+.text_rigth h1{
+	font-size: 47px;
+	font-family: "carizo";
+	font-weight: bold;
+}
+
+.text_rigth span {
+	font-family: "Butler_Medium";
+	font-size: 22px;
+	font-weight: bold;
+	color: #783015;
+}
+
+.text_rigth p {
+	font-size: 16px;
+	text-align: justify;
+	margin-right: 115px;
+}
+
+.servicos_principais h1 {
+	font-family: "carizo";
+	font-size: 60px;
+	text-align: center;
+	margin-top: -23px;
+	color: #783015;
+}
+
+.servicos_principais p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.servicos {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	gap: 70px;
+}
+
+.card_servicos {
+	text-align: center;
+	border: 2px solid #eaeaea;
+	border-radius: 20px;
+	margin-bottom: 150px;
+	width: 70%;
+	height: 256px;
+	box-shadow: 15px 23px 28px -17px #272626;
+	margin-top: 27px;
+}
+
+.servicos img {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+
+.servicos h2 {
+	font-family: "Butler_Medium";
+  font-size: 21px;
+  color: #783015;
+  margin-top: 4px;
+}
+
+.servicos p {
+	font-size: 14px;
+	margin: 0px 36px;
+}
+
+.profissionais {
+	background: linear-gradient( #fff, #decf0075);
+	display: flex;
+	padding: 54px;
+	margin-top: -176px;
+}
+
+.profissionais img {
+	justify-content: right;
+  display: flex;
+  width: 420px;
+  height: 420px;
+	margin-top: 165px;
+}
+
+.profissionais h2 {
+	font-family: "Butler_Medium";
+	font-size: 60px;
+	text-align: center;
+	color: #783015;
+}
+
+.profissionais p {
+	font-size: 20px;
+	margin: 0px 213px;
+	text-align: justify;
+}
+
+#text {
+	margin-top: 109px;
+	padding: 20px;
+	line-height: 1.5;
+}
+
+.rodape {
+	background-color: #783015;
+	height: 230px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 200px;
+}
+
+.logo_footer img {
+	width: 100px;
+	margin-left: -31px;
+}
+
+.logo_footer span {
+	color: #f8e91c;
+}
+
+.logo_footer h1 {
+	color: white;
+	margin-left: 12px;
+	margin-top: 40px;
+}
+
+.logo_footer {
+	display: flex;
+}
+
+.local {
+	display: flex;
+}
+
+.phone {
+	display: flex;
+}
+
+#icon {
+	width: 12px;
+  height: 16px;
+	margin-top: 17px;
+  margin-right: 18px;
+}
+
+#textos {
+	color: #fff;
+}
+
+#texto_evidente {
+	font-family: "Butler_Medium";
+	color: #fff;
+	font-size: 19px;
+  font-weight: bold;
+	margin-left: 6px;
+}
+
+.bloco2 a {
+	text-decoration: none;
+	display: inline;
+	padding: 7px;
+}
+
+.bloco2 li {
+	list-style-type: none;
+	padding: 7px;
+}
+
+.bloco2 a:hover {
+	background-color: #decf00;
+	border-radius: 7px;
+}
